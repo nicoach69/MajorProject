@@ -6,11 +6,13 @@ FireEmergency
 2 Ouvrir le fichier index.html dans le dossier Front  
 3 Lancer tout les service SAUF THREAD  
 4 A l'aide du terminal linux :  
+```
 cd /tmp/  
 git clone https://gitlab.com/js-project-gis-1/js-fire-simulator-starter.git  
 newgrp - docker  
 cd /tmp/js-fire-simulator-starter/  
 docker-compose up  
+```
 5 Lancer le service thread  
 6 Ajouter quelques véhicules  
 7 Envoyer la requête PUT http://localhost:8081/config/creation à l'aide de Postman contenant le Body JSON suivant :  
