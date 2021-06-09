@@ -14,7 +14,7 @@ docker-compose up
 5 Lancer le service thread  
 6 Ajouter quelques véhicules  
 7 Envoyer la requête PUT http://localhost:8081/config/creation à l'aide de Postman contenant le Body JSON suivant :  
-  
+  ```
 {  
     "fireCreationProbability": 1.0,  
     "fireCreationSleep": 10000,  
@@ -37,6 +37,6 @@ docker-compose up
     "max_INTENSITY": 50.0,  
     "max_RANGE": 50.0  
 }  
-  
+  ```
 Observer  
  
